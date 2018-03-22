@@ -352,3 +352,31 @@ hr {
 .footer-text-right p {
     text-transform: capitalize;
 }
+@media only screen and (max-width:800px) {
+    .top-bar img, .top-bar h3 {
+        position: relative;
+        right:120px;
+    }
+    .top-bar ul {
+        position: relative;
+        top:-10px;
+        margin-left:90px;
+    
+    }
+    .top-bar li {
+        margin:1px;
+    }
+    .laptop img {
+        position: relative;
+        top:100px;
+        left:50px;
+    }
+    .text {
+        display:none;
+    }
+    .circles {
+        position: relative;
+        top:70px;
+        right:20px;
+    }
+}
