@@ -2,12 +2,7 @@
     padding:0;
     margin:0 auto;
 }
-.top-bar {
-    width:100%;
-    height:80px;
-    background-color:#A8D3DB;
 
-}
 .top-bar img {
     width:20px;
     margin-top:30px;
@@ -15,25 +10,15 @@
     position: relative;
 }
 .top-bar h3 {
-    margin-top:-25px;
-    margin-left:0px;
+    margin-top:25px;
+    margin-left:10px;
     display:inline;
     text-transform: uppercase;
     position: relative;
-}
-.top-bar ul {
-    float:right;
-    position: relative;
-    
-}
-.top-bar li {
-    display:inline-block;
-    position: relative;
-    right:60px;
     top:20px;
-    padding:5px;
-    margin:10px
+    font-family:monospace;
 }
+
 #portfolio {
     background-color:#3B474D;
     border-radius:5px;
@@ -45,22 +30,25 @@
     margin-top:-50px;
     display:inline-block;
 }
-.middle-topbar-both {
-}
+
 .text {
-    width:200px;
+    width:250px;
     text-transform:uppercase;
     margin-left:150px;
     position: relative;
     top:100px;
+    font-family:monospace;
     
 }
 .laptop {
     float:right;
-    margin-right:155px;
+    position: relative;
+    top:-100px;
+    right:100px;
 }
 .laptop img {
-    width:200px;
+    width:300px;
+  
     
     
 }
@@ -68,7 +56,10 @@
 .circles {
     width:100%;
    text-align: center;
-    margin-top:200px;
+    margin-top:120px;
+    margin-left:300px;
+    display:block;
+    
 
 }
 .circles ul {
@@ -352,31 +343,40 @@ hr {
 .footer-text-right p {
     text-transform: capitalize;
 }
+
+@media only screen and (max-width:1000px) {
+    .laptop {
+        position: relative;
+        top:-130px;
+    }
+}
 @media only screen and (max-width:800px) {
+    .laptop {
+        position: relative;
+        right:10px;
+    }
+    .top-bar img, .top-bar h3, .text {
+        position: relative;
+        left:-140px;
+    }
+}
+@media only screen and (max-width:570px) {
     .top-bar img, .top-bar h3 {
         position: relative;
-        right:120px;
-    }
-    .top-bar ul {
-        position: relative;
-        top:-10px;
-        margin-left:90px;
-    
-    }
-    .top-bar li {
-        margin:1px;
+        left:-60px;
     }
     .laptop img {
+        width:250px;
+    }
+    .laptop  {
         position: relative;
         top:100px;
-        left:50px;
+        right:60px;
     }
     .text {
         display:none;
     }
     .circles {
-        position: relative;
-        top:70px;
-        right:20px;
+        display:none;
     }
 }
