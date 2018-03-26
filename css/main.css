@@ -48,13 +48,10 @@
 }
 .laptop img {
     width:300px;
-  
-    
-    
 }
 
 .circles {
-    width:100%;
+    width:100px;
    text-align: center;
     margin-top:120px;
     margin-left:300px;
@@ -95,6 +92,7 @@
 .section-1-row h4 {
     margin:15px;
 }
+
 /*section 2 Recent Works*/
 .section-2-row {
     background-color:#9BD1A6;
@@ -157,6 +155,7 @@
 .layer1 p {
     width:300px;
     margin-bottom:10px;
+    margin-left:0;
 }
 .section-3-row img {
     width:200px;
@@ -179,6 +178,7 @@ hr {
 .layer2 p {
     width:300px;
     margin-bottom:10px;
+    margin-left:0;
 }
 .layer2-para {
     float:right;
@@ -343,21 +343,54 @@ hr {
 .footer-text-right p {
     text-transform: capitalize;
 }
+button .btn-primary:hover {
+    border:2px solid white;
+}
 
 @media only screen and (max-width:1000px) {
     .laptop {
         position: relative;
         top:-130px;
     }
+    
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:900px) {
     .laptop {
         position: relative;
-        right:10px;
+        right:30px;
+    }
+    .laptop img {
+        width:250px;
     }
     .top-bar img, .top-bar h3, .text {
         position: relative;
-        left:-140px;
+        left:-110px;
+    }
+    .circles {
+        position: relative;
+        right:50px;
+    }
+    .section-3-row {
+        width:700px;
+    }
+    .section-3-row img {
+        width:350px;
+        margin-left:180px;
+    }
+    .layer1-para {
+        margin-left:180px;
+    }
+    .layer2 img {
+        width:350px;
+        margin-right:180px;
+    }
+    .layer2-para {
+        margin-right:100px;
+    }
+}
+@media only screen and (max-width:640px) {
+    .circles {
+        display:none;
     }
 }
 @media only screen and (max-width:570px) {
@@ -366,17 +399,15 @@ hr {
         left:-60px;
     }
     .laptop img {
-        width:250px;
+        width:200px;
     }
     .laptop  {
         position: relative;
         top:100px;
-        right:60px;
+        right:130px;
     }
     .text {
         display:none;
     }
-    .circles {
-        display:none;
-    }
+   
 }
