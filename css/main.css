@@ -54,7 +54,6 @@
     width:100px;
    text-align: center;
     margin-top:120px;
-    margin-left:300px;
     display:block;
     
 
@@ -343,8 +342,9 @@ hr {
 .footer-text-right p {
     text-transform: capitalize;
 }
-button .btn-primary:hover {
-    border:2px solid white;
+button:hover {
+    border:1px solid darkblue;
+    color:darkblue;
 }
 
 @media only screen and (max-width:1000px) {
@@ -354,7 +354,7 @@ button .btn-primary:hover {
     }
     
 }
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:800px) {
     .laptop {
         position: relative;
         right:30px;
@@ -366,10 +366,7 @@ button .btn-primary:hover {
         position: relative;
         left:-110px;
     }
-    .circles {
-        position: relative;
-        right:50px;
-    }
+    
     .section-3-row {
         width:700px;
     }
@@ -404,7 +401,7 @@ button .btn-primary:hover {
     .laptop  {
         position: relative;
         top:100px;
-        right:130px;
+        right:90px;
     }
     .text {
         display:none;
