@@ -195,7 +195,7 @@ hr {
 .section-4-row {
     clear:both;
     width:100%;
-    height:500px;
+    height:600px;
     text-align: center;
     background-color:#DFB7C7;
 }
@@ -210,7 +210,7 @@ hr {
     color:#FFF;
 }
 .section-4-row-info {
-    width:200px;
+    max-width:300px;
     text-align: center;
     margin:25px;
     display:inline-block;
@@ -241,6 +241,8 @@ hr {
 }
 .section-4-row-bottom img {
     width:30px;
+    position: relative;
+    top:-35px;
 
 }
 .section-4-row-bottom li {
@@ -346,6 +348,11 @@ button:hover {
     border:1px solid darkblue;
     color:darkblue;
 }
+@media only screen and (max-width:1150px) {
+    .section-4-row {
+        height:850px;
+    }
+}
 
 @media only screen and (max-width:1000px) {
     .laptop {
@@ -383,6 +390,9 @@ button:hover {
     }
     .layer2-para {
         margin-right:100px;
+    }
+    .section-4-row {
+        height:1200px;
     }
 }
 @media only screen and (max-width:640px) {
