@@ -389,6 +389,21 @@ button:hover {
     .circles {
         display:none;
     }
+    .section-3-row {
+        width:550px;
+    }
+    .section-3-row img {
+        margin-left:140px;
+    }
+    .layer1-para {
+        margin-left:100px;
+    }
+    .layer2 img {
+        margin-right:60px;
+    }
+    .layer2-para  {
+        margin-right:0px;
+    }
 }
 @media only screen and (max-width:570px) {
     .top-bar img, .top-bar h3 {
@@ -406,5 +421,34 @@ button:hover {
     .text {
         display:none;
     }
+    .section-3-row {
+        width:450px;
+    }
+    .section-3-row img {
+        margin-left:60px;
+    }
+    .layer1-para {
+        margin-left:30px;
+    }
+    .layer2 img {
+        margin-right:40px;
+    }
+    .layer2-para {
+        margin-right:-20px;
+    }
    
+}
+@media only screen and (max-width:450px) {
+    .section-3-row {
+        width:300px;
+    }
+    .section-3-row img {
+        margin-left:-25px;
+    }
+    .layer1-para {
+        margin-left:0px;
+    }
+    .layer2 img {
+        margin-right:-25px;
+    }
 }
